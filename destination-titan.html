@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+  <img id="background" src="assets/destination/background-destination-desktop.jpg" alt="background image space">
+
+  <nav>
+    <div id="logo">
+      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg>
+    </div>
+    <ul id="top-navbar" class="navbar navbar-text uppercase">
+      <li><a href="index.html"><strong>00</strong>Home</a></li>
+      <li class="selected-page"><a href="destination-moon.html"><strong>01</strong>Destination</a></li>
+      <li><a href="crew-commander.html"><strong>02</strong>Crew</a></li>
+      <li><a href="technology-vehicle.html"><strong>03</strong>Technology</a></li>
+    </ul>
+  </nav>
+
+  <main id="destinations">
+    <div class="main-content">
+      <h1 class="page-intro uppercase"><strong>01</strong>Pick your destination</h1>
+      <img src="assets/destination/image-titan.png" alt="titan image">
+    </div>
+    <div class="main-content">
+      <ul id="destinations-navbar" class="navbar navbar-text uppercase">
+        <li><a href="destination-moon.html">Moon</a></li>
+        <li><a href="destination-mars.html">Mars</a></li>
+        <li><a href="destination-europa.html">Europa</a></li>
+        <li class="selected-page"><a href="destination-titan.html">Titan</a></li>
+      </ul>
+      <h1 class="page-big-heading uppercase font-bellafair">Titan</h1>
+      <p class="page-text text-light-blue">
+        The only moon known to have a dense atmosphere other than Earth, Titan 
+        is a home away from home (just a few hundred degrees colder!). As a 
+        bonus, you get striking views of the Rings of Saturn.
+      </p>
+      <div class="horizontal-line"></div>
+      <div class="horizontal-container">
+        <div class="destination-info uppercase">
+          <p class="text-light-blue">Avg. distance</p>
+          <h2 class="font-bellafair">1.6 bil. km</h2>
+        </div>
+        <div class="destination-info uppercase">
+          <p class="text-light-blue">Est. travel time</p>
+          <h2 class="font-bellafair">7 years</h2>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

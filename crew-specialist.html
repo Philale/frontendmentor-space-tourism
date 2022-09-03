@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+  <img id="background" src="assets/crew/background-crew-desktop.jpg" alt="background image space">
+
+  <nav>
+    <div id="logo">
+      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg>
+    </div>
+    <ul id="top-navbar" class="navbar navbar-text uppercase">
+      <li><a href="index.html"><strong>00</strong>Home</a></li>
+      <li><a href="destination-moon.html"><strong>01</strong>Destination</a></li>
+      <li class="selected-page"><a href="crew-commander.html"><strong>02</strong>Crew</a></li>
+      <li><a href="technology-vehicle.html"><strong>03</strong>Technology</a></li>
+    </ul>
+  </nav>
+
+  <main id="crew">
+    <div class="main-content">
+      <h1 class="page-intro uppercase"><strong>02</strong>Meet your crew</h1>
+      <h3 class="crew-type uppercase font-bellafair">Mission Specialist</h3>
+      <h2 class="page-big-heading uppercase crew-name font-bellafair">Mark Shuttleworth</h2>
+      <p class="page-text text-light-blue">
+        Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind 
+        the Linux-based Ubuntu operating system. Shuttleworth became the first South 
+        African to travel to space as a space tourist.
+      </p>
+      <ul id="circle-navbar" class="navbar toBottom">
+        <li><a href="crew-commander.html" class="circle"></a></li>
+        <li><a href="crew-specialist.html" class="circle selected-crew-page"></a></li>
+        <li><a href="crew-pilot.html" class="circle"></a></li>
+        <li><a href="crew-engineer.html" class="circle"></a></li>
+      </ul>
+    </div>
+    <div class="main-content">
+      <img class="toBottom" src="assets/crew/image-mark-shuttleworth.png" alt="">
+    </div>
+  </main>
+</body>
+</html>
